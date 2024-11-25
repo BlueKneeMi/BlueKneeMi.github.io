@@ -1,7 +1,7 @@
 # Site settings
 title: Miryang Sim
-email: miryangsim@protonmail.com
-url: bluekneemi.github.io/personal-page/
+email: miryang.sim@proton.me
+url: bluekneemi.github.io
 description: "Illustration portfolio page for Miryang Sim."
 keywords: "illustrator, design, freelance"
 skills: "Illustrator"
@@ -41,6 +41,8 @@ footer:
 social:
   - title: linkedin
     url: https://www.linkedin.com/in/knee-sim-766294185/
+  - title: instagram
+    url: https://www.instagram.com/blueknee02/
 
 # Postal address (add as many lines as necessary)
 address:
