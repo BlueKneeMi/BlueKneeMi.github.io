@@ -1,11 +1,11 @@
 # Site settings
-title: Blueknee Mi
+title: BluekneeSim
 email: miryang.sim@proton.me
 url: bluekneemi.github.io
 description: "Illustration portfolio page for Miryang Sim."
 keywords: "illustrator, design, freelance"
 skills: "Illustrator"
-meta_author: Blueknee Mi
+meta_author: BluekneeSim
 
 # Google webmaster tools
 google_verify:
@@ -27,8 +27,8 @@ disqus_shortname: myshortname
 color:
   primary: FFFFFF #18bc9c #80B3FF
   primary-rgb: "255,255,255" #"24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  secondary: FFFFFF #2c3e50 #FD6E8A
+  secondary-dark: FFFFFF #233140 #A2122F
 
 # Footer settings
 footer:
