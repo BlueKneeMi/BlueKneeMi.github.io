@@ -4,6 +4,9 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mandaic&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 body {
     overflow-x: hidden;
     color: black;
@@ -11,10 +14,16 @@ body {
 
 p {
     font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 p.small {
     font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 a,
@@ -33,7 +42,9 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     font-weight: 400;
 }
 
@@ -98,15 +109,21 @@ header img {
     margin: 0 auto 20px;
 }
 
+a, a:hover, a:focus, a:active, a.active {
+    color: black;
+}
+
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Noto Sans Mandaic", sans-serif;
     font-size: 2em;
+    font-style: normal;
     font-weight: 400;
 }
 
 header .intro-text .skills {
+    font-family: "Noto Sans Mandaic", sans-serif;
+    font-style: normal;
     font-size: 1.25em;
     font-weight: 300;
 }
@@ -157,6 +174,24 @@ header .intro-text .skills {
     font-weight: 400;
 }
 
+a {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: black;
+}
+
+.navbar-nav>.active>a {
+    color: black;
+}
+
 .navbar a:focus {
     outline: 0;
 }
@@ -181,6 +216,9 @@ section {
 section h2 {
     margin: 0;
     font-size: 3em;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 section.success {
