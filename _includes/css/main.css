@@ -19,6 +19,14 @@ p {
     font-style: normal;
 }
 
+.navbar-nav {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the items horizontally */
+    margin: 0 auto; /* Ensure the list is centered within its container */
+    padding: 0; /* Remove default padding */
+    float: none;
+  }
+
 p.small {
     font-size: 16px;
     font-family: "Inter", sans-serif;
@@ -27,13 +35,18 @@ p.small {
 }
 
 a,
-a:hover,
 a:focus,
 a:active,
+a:hover,
 a.active {
     outline: 0;
     color: #{{ site.color.primary }};
 }
+
+a:hover {
+    color: grey
+}
+
 
 h1,
 h2,
@@ -472,6 +485,22 @@ footer .footer-below {
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+}
+
+.navbar-brand {
+    font-family: "Noto Sans Mandaic", sans-serif;
+    font-size: 2em;
+    font-style: normal;
+    text-transform: none;
+    font-weight: 400;
+    text-align: center;
+    float: none;
+    display: block;
+    margin-left: 0 !important;
 }
 
 .portfolio-modal .modal-content img {
