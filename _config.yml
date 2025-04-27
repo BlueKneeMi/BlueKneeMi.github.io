@@ -39,8 +39,6 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: linkedin
-    url: https://www.linkedin.com/in/knee-sim-766294185/
   - title: instagram
     url: https://www.instagram.com/blueknee02/
 
@@ -50,7 +48,7 @@ address:
   - line: Republic of Korea
 
 # Credits content
-credits: 'I created this page using the "Freelancer" Jekyll theme.'
+credits: "I've created this page with Jekyll"
 
 # Build settings
 markdown: kramdown
