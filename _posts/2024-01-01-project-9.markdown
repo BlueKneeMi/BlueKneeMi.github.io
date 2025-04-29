@@ -1,11 +1,7 @@
 ---
 layout: default
-modal-id: 9
 date: 2024-01-01
-img: item5.png
+img: illust5.png
 alt: image-alt
-project-date: 2023
-client: Start Bootstrap
-category: N/A
-description: N/A
+category: illustration
 ---

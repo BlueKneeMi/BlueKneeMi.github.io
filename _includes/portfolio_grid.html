@@ -2,9 +2,11 @@
 <section id="portfolio">
   <div class="container portfolio-flex-grid">
       {% for post in site.posts %}
+      {% if post.category == "illustration" %}
       <div class="portfolio-flex-item portfolio-item">
           <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
       </div>
+      {% endif %}
       {% endfor %}
   </div>
 </section>
