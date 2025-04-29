@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# Number of files to generate
+num_files=16
+
+# Starting index for filenames and images
+start_file_index=42
+start_img_index=1
+
+# Loop to generate files
+for i in $(seq 0 $((num_files - 1))); do
+  file_index=$((start_file_index + i))
+  img_index=$((start_img_index + i))
+  filename="./2024-01-01-project-${file_index}.markdown"
+  img_name="work${img_index}.jpg"
+  cat <<EOF > $filename
+---
+layout: default
+date: 2024-01-01
+img: ${img_name}
+alt: image-alt
+category: work
+---
+EOF
+  echo "Created $filename"
+done
