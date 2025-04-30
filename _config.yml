@@ -52,7 +52,6 @@ credits: "I've created this page with Jekyll"
 
 # Build settings
 markdown: kramdown
-permalink: pretty
 
 #for posts
 defaults:
