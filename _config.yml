@@ -7,6 +7,8 @@ keywords: "illustrator, design, freelance"
 skills: "ILLUSTRATOR"
 meta_author: Blueknee Sim
 
+
+baseurl: ""
 # Google webmaster tools
 google_verify:
 
@@ -53,10 +55,3 @@ credits: "I've created this page with Jekyll"
 # Build settings
 markdown: kramdown
 
-#for posts
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      permalink: ""
