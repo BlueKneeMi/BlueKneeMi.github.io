@@ -27,7 +27,22 @@ p {
     float: none;
   }
 
-
+/* Make the navbar stack vertically on smaller screens */
+@media (max-width: 768px) {
+    .navbar-nav {
+      display: block; /* Stack items vertically */
+      text-align: center; /* Center-align the links */
+    }
+  
+    .navbar-nav > li {
+      display: block; /* Ensure each item takes up full width */
+      margin: 10px 0; /* Add spacing between items */
+    }
+  
+    .navbar-collapse {
+      text-align: center; /* Center the collapsed menu */
+    }
+  }
 
 p.small {
     font-size: 16px;
@@ -312,6 +327,14 @@ section.success {
     z-index: 2;
 }
 
+
+.portfolio-flex-grid {
+    display: flex; /* Use Flexbox for alignment */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically if needed */
+    gap: 15px; /* Add spacing between items */
+}
 
 /* Flexbox Portfolio Grid */
 @media (min-width: 640px) {
