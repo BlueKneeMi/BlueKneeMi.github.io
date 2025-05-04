@@ -327,6 +327,19 @@ section.success {
     z-index: 2;
 }
 
+.about-content {
+    text-align: center;
+}
+
+.about-image {
+    max-width: 200px;
+}
+
+.about-text {
+    font-size: 1em;
+    font-family: "Inter", sans-serif;
+}
+
 @media (max-width: 640px) {
 .portfolio-flex-grid {
     display: flex; /* Use Flexbox for alignment */
