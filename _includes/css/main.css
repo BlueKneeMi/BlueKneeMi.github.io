@@ -250,7 +250,7 @@ a {
 }
 
 section {
-    padding: 100px 0;
+    padding: 10px 0;
 }
 
 section h2 {
@@ -526,13 +526,14 @@ footer .footer-below {
     font-size: 3em;
 }
 
+
 .navbar-default .navbar-brand {
     color: black;
 }
 
 .navbar-brand {
     font-family: "Noto Sans Mandaic", sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     font-style: normal;
     text-transform: none;
     font-weight: 400;
