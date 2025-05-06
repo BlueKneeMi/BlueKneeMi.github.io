@@ -36,7 +36,7 @@ p {
   
     .navbar-nav > li {
       display: block; /* Ensure each item takes up full width */
-      margin: 10px 0; /* Add spacing between items */
+      margin: 0.6em 0; /* Add spacing between items */
     }
   
     .navbar-collapse {
@@ -45,7 +45,7 @@ p {
   }
 
 p.small {
-    font-size: 16px;
+    font-size: 1em;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -250,7 +250,7 @@ a {
 }
 
 section {
-    padding: 10px 0;
+    padding: 0.6em 0;
 }
 
 section h2 {
@@ -268,7 +268,7 @@ section.success {
 
 @media(max-width:767px) {
     section {
-        padding: 75px 0;
+        padding: 0.6em 0;
     }
 
     section.first {
@@ -346,7 +346,7 @@ section.success {
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items horizontally */
     justify-content: center; /* Center items vertically if needed */
-    gap: 15px; /* Add spacing between items */
+    gap: 0.6em; /* Add spacing between items */
 }
 }
 
@@ -354,7 +354,7 @@ section.success {
 @media (min-width: 640px) {
     .portfolio-flex-grid {
       column-count: 3;
-      column-gap: 10px;
+      column-gap: 0.6em;
       justify-content: center;
     }
 
@@ -462,9 +462,7 @@ footer .footer-above {
     background-color: #{{ site.color.secondary }};
 }
 
-footer .footer-col {
-    margin-bottom: 50px;
-}
+
 
 footer .footer-below {
     padding: 25px 0;
